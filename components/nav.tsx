@@ -5,7 +5,7 @@ import React from "react";
 
 function Nav() {
   return (
-    <nav className="fixed top-0 left-0 w-full px-14 py-4 flex justify-between items-center z-99">
+    <nav className="fixed top-0 left-0 w-full px-14 py-4 max-md:px-7  max-lg:px-4 flex justify-between items-center z-99">
       <motion.div
         animate={{
           y: [-100, 0],
@@ -18,10 +18,10 @@ function Nav() {
           },
         }}
       >
-        <h1 className="text-4xl font-normal">MYBLOG</h1>
+        <h1 className="text-4xl max-lg:text-3xl max-md:text-2xl font-normal">MYBLOG</h1>
       </motion.div>
 
-      <ul className="flex gap-[30px]">
+      <ul className="flex gap-[30px] max-md:hidden">
         <motion.div
           animate={{
             y: [-100, 0],

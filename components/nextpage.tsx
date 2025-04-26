@@ -17,7 +17,7 @@ function NextPage() {
         },
       }}
     >
-      <div className="w-[56px] h-[56px] animate-bounce bg-white rounded-full fixed bottom-4 left-[50%] shadow-2xl flex justify-center items-center">
+      <div className="w-[56px] h-[56px] max-md:w-[48px] max-md:h-[48px] animate-bounce bg-white rounded-full fixed bottom-4 left-[calc(50%-28px)] max-md:left-[calc(50%-24px)] shadow-2xl flex justify-center items-center">
         <ChevronDown />
       </div>
     </motion.div>

@@ -7,7 +7,7 @@ import React from "react";
 function Module() {
   return (
     <motion.div
-      className="w-[50%] h-full"
+      className="w-[50%] max-md:w-full h-full max-md:h-[380px] max-md:mt-16"
       animate={{
         y: [-100, 0],
         opacity: [0, 1],

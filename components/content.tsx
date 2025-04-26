@@ -17,9 +17,9 @@ function Content() {
           ease: ["easeInOut"],
         },
       }}
-      className="flex pl-[10%] items-center w-[50%] h-full"
+      className="flex pl-[10%] max-lg:pl-[5%] items-center w-[50%] max-md:w-full max-md:p-8 max-md:justify-center h-full"
     >
-      <div className="flex flex-col gap-6 w-full">
+      <div className="flex flex-col gap-6 max-md:w-auto">
         <motion.div
           animate={{
             x: [-100, 0],
@@ -32,7 +32,7 @@ function Content() {
             },
           }}
         >
-          <div className="text-center w-[40%] shadow-2xs shadow-white p-0.5 bg-black rounded-full">
+          <div className="text-center w-[40%] max-md:w-auto shadow-2xs shadow-white p-0.5 bg-black rounded-full">
             <div className="py-2 px-4 bg-[#ffd2d2] rounded-full font-bold">
               INTRUCING
             </div>
@@ -50,7 +50,7 @@ function Content() {
             },
           }}
         >
-          <h1 className="text-6xl font-bold">
+          <h1 className="text-6xl max-md:text-4xl max-lg:text-5xl font-bold">
             MYBLOG IS <br /> VERY POWERFUL
           </h1>
         </motion.div>
@@ -66,7 +66,7 @@ function Content() {
             },
           }}
         >
-          <p className="text-black/60">
+          <p className="text-black/60 text-2xl max-md:text-xl max-lg:text-xl">
             With a large number of high-quality bloggers producing a variety of
             exciting content, it is very powerful in function and can provide
             users with unique and convenient services.
@@ -86,7 +86,7 @@ function Content() {
               },
             }}
           >
-            <div className="shadow-xl gap-4 cursor-pointer transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 rounded-full flex justify-center items-center border-2 border-black py-4 px-8 text-black">
+            <div className="shadow-xl gap-4 cursor-pointer transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 rounded-full flex justify-center items-center border-2 border-black py-4 px-8 max-md:px-4 max-md:py-2 text-black">
               Documentation
               <ArrowRightIcon size={21} />
             </div>
@@ -104,7 +104,7 @@ function Content() {
               },
             }}
           >
-            <div className="drop-shadow-xl group gap-4 cursor-pointer transition ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-pink-400 hover:text-white duration-300 rounded-full flex justify-center items-center bg-white px-8 py-4">
+            <div className="drop-shadow-xl group gap-4 cursor-pointer transition ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-pink-400 hover:text-white duration-300 rounded-full flex justify-center items-center bg-white px-8 py-4 max-md:px-4 max-md:py-2">
               Getstared
               <ArrowRightIcon size={21} />
             </div>
