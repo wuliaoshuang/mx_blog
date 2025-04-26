@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, Variants } from "motion/react";
+import { motion } from "motion/react";
 import React from "react";
 
 function Nav() {
